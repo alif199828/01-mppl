@@ -1,0 +1,110 @@
+-MPPL Klasik-
+Metode pengembangan perangkat lunak (Software Development Methodology) atau metode pengembangan sistem mengacu pada kerangka yang digunakan untuk membuat struktur, rencana, dan kontrol dari proses pengembangan sebuah sistem (khususnya sistem informasi)[2]. Dalam kata lain dapat dikatakan juga sebagai sebuah pendekatan yang  digunakan  oleh  organisasi  atau  sebuah  tim  dalam mengembangkan perangkat lunak.
+Ada banyak metode-metode pengembangan perangkat lunak yang ada saat ini.  Beberapa diantaranya merupakan metode dasar (klasik) yakni seperti metode Waterfall, Spiral dan Prototyping.  Selain ketiga metode tersebut, telah banyak juga pengembangan metode-metode klasik lainnya seperti RAD, Incremental, V-Shaped model serta beberapa metode lainnya.
+1. Waterfall Model
+Yakni sebuah desain  proses yang sequensial (berurutan) yang dalam progressnya terlihat seperti aliran air ter-jun (waterfall) dari proses perancangan konsep, inisialisasi project, alanisis, desain, pembuatan system (coding), testing, produksi/implementasi dan perawatan (maintenance).
+
+Beberapa prinsip utama dari model ini yakni[2]:
+• Project dibagi-bagi dalam beberapa fase yang saling berurutan.
+• Penekanan  pada  perencanaan,   jadwal  (schedule), deadline, budget, dan implementasi keseluruhan sis-
+tem sekaligus.
+• Kontrol yang ketat dalam siklus hidup project dengan menggunakan bantuan dokumentasi tertulis.
+
+Kelebihan dari metode ini yakni:
+• Mudah dimengerti, mudah digunakan,
+• Requirement dari sistem bersifat stabil,
+• Baik dalam manajemen kontrol,
+• Bekerja dengan baik ketika kualitas lebih diutamakan dibandingkan dengan biaya dan jadwal (deadline).
+Selain kelebihan-kelebihan di atas, model Waterfall ini memiliki kekurangan yang sangat banyak.  Dikarenakan sangat banyak tim yang telah mengimplementasikan projectnya dengan menggunakan model ini. Beberapa diantara kekurangannya itu yakni:
+• Semua  kebutuhan  sistem  harus  diketahui  terlebih dahulu,
+• Penenyahan  dari  setiap  fase  ke  fase  lainnya  dapat dikatakan statis (tidak ﬂeksible)
+• Dapat memberikan kesan palsu dari progresnya.
+• Tidak menunjukkan menunjukkan prinsif ”ProblemSolving”  dalam  Pengembangan  Perangkat  Lunak
+dikarenakan fase yang harus berurut.
+
+• Integrasi sekaligus di akhir sistem.
+• Customer hanya memiliki sedikit kesempatan untuk melihat dan mereview sistem (yakni di akhir project).
+• Resiko sangat tinggi, karena testing hanya dilakukan pada  setiap  akhir  fase,  bahkan  tidak  jarang  testing hanya dilakukan di akhir-akhir project.
+• Membutuhkan waktu yang cukup lama (walaupun projectnya tidak terlalu besar).
+• Perubahan  requirement  dapat  merubah  keseluruhan proses yang telah dilaksanakan.	
+
+2. Prototyping
+Yakni sebuah pendekatan pengembangan dalam sebuah aktiﬁtas pengembangan perangkat lunak untuk pembuatan prototype,  misalnya berupa produk belum jadi dari peragkat lunak yang dikembangkan.   Beberapa prinsip utamanya yakni[2]:
+• Tidak  berdiri  sendiri,   serig  digabungkan  dengan metode lainnya seperti Incremental, Spiral atau RAD.
+• Berusaha  untuk  mengurangi  resiko  project  dengan memecahkannya kedalam sub-sub project yang lebih kecil  yang  memungkinkan  untuk  memudahkan  perubahan.
+• User terlibat dalam proses, sehingga memungkinkan sistem yang sesuai dengan permintaan user.
+• Mock-ups berukuran kecil dari sistem dengan perubahan  berlanjut  hingga  sesuai  dengan  kebutuhan  dari user.
+• Pengembangan lebih lanjut dengan mengembangkan prototype.
+
+Metode ini memiliki banyak keuntungan bagi developer, karena pada metode ini customer dan user system terlibat secara langsung dalam pengembangan. Kelebihan dari metode ini yakni:• User  dapat  melihat  secara  langsung  perkembangan system seiring dengan permintaannya,
+• Developer belajar langsung mengenai kebutuhan sistem dari customer/user,
+• Hasil produk yang lebih akurat (lebih sesuai dengan permintaan user),
+• Desain sistem lebih ﬂeksibel,
+• Iteraktif dengan adanya simulasi prototype,
+• Untuk pengembangan lebih lanjut (jika terjadi perubahan), developer hanya perlu mengubah prototype,
+• Jika customer sudah ”puas”, prototype dibuat menjadi system secara sempurna untuk dijadikan ’Final Product’.
+
+Sedangkan kekurangan-kekurangannya yakni:
+• Proses bisa jadi berlanjut terus menerus tanpa henti (mengikuti keinginan customer),
+• Bisa jadi customer malah menginginkan prototype system dikirim,
+• Reputasi  yang  buruk  sebagai  sebuah  metode  yang bersifat ”Quick-and-Dirty”.
+• Kemungkinan perawatan secara keseluruhan bisa saja terabaikan.
+• Pengembangan yang berlebihan untuk prototype.
+
+3. Spiral
+Model Spiral adalah proses pengembangan perangkat lunak yang menggabungkan antara elemen waterfall model dengan prototyping dalam setiap tahap, dalam upaya untuk menggabungkan keuntungan dari konsep top-down dan bottom-up.  Model ini pertama kali dikenalkan pada tahun 1988 oleh Barry Boehm. Beberapa prinsip utama model ini yakni:
+• Fokus pada penilaian resiko dan minimalisasi resiko project  dengan  memecah  project  menjadi  beberapa bagian
+• Setiap perjalanan siklus spiral selalu melalui empat kuadran utama yakni:  (1) menentukan objective atau
+tujuan,  alternative-alternative dan  batasan dalam  iterasi tersebut; (2) evaluasi alternative-alternative, iden-
+tiﬁkasi resiko dan penyelesaiannya; (3) pengembangan (develop) dan persiapan untuk pengajuan dari iterasi
+tersebut; dan (4) perencanaan untuk iterasi berikutnya.
+• Permulaan setiap siklus identiﬁkasi stakeholder dan kondisi akhir, serta review dari setiap siklus.
+
+Kelebihan dari model ini yakni:
+• User dapat melihat sistem lebih awal dengan adanya rapid prototyping tools,
+• Fungsi-fungsi  yang  memiliki  resiko  tinggi  diprioritaskan lebih utama,
+• Desain sistem tidak perlu perfect,
+• Mendapat respon yang lebih cepat dari user,
+• Perhitungan biaya dilakukan setiap saat.
+
+Sedangkan kelemahan dari model Spiral ini yakni:
+• Rumit, membutuhkan manajemen yang penuh perhatian dan berpengalaman untuk bisa melakukannya.
+• Beresiko besar jika tidak sesuai dengan budget atau schedule.
+• Penggunaan waktu untuk melakukan evaluasi resiko terlalu besar.
+• Spiral (siklus) munkin bisa berlanjut tanpa batas.
+• Bisa  sangat  sulit  untuk  mendeﬁnisikan  tujuan  dan pencapaian yang menujjukkan kesiapan untuk melan-
+jutkan menuju ke iterasi berikutnya.
+• Model ini hanya bekerja dengan baik pada project yang berukuran besar dan memiliki waktu pengerjaan yang panjang juga.
+
+
+-METODE AGILE-
+Agile 
+Agile   software   development   (sering   disebut   ”agile”)adalah kumpulan dari metode-metode pengembangan perangkat  lunak  yang  berbasis  pada  Iterative  dan  Incremental  Model.    Agile  membawakan  perubahan  dari  model metode-metode  kelas  berat  seperti  waterfall  dan  Spiral. Agile  adalah  metode  pengembangan  perangkat  lunak yang  ringan,  yang  memungkinkan  tim  untuk  mengembangkan perangkat lunak yang memiliki reequirement yang samar-samar dan mudah berubah dengan cepat.
+Beberapa  keunggulan  agile 2 dengan  metode-metode lainnya yakni:
+• Proses Iterative dan Incremental,
+• Requirement dapat berubah sewaktu-waktu,
+• Pelacakan requirement dengan melihat Backlog produk,
+• Keterlibatan user secara aktif,
+• Rilis yang lebih cepat dan berkala, fungsi dirilis setiap akhir iterasi.
+• Testing dilakukan setiap saat, Seperti metode-metode lainnya, Agile bukanlah metode yang  sempurna.
+
+Agile  memiliki  kelemahan-kelemahan yang tidak kalah banyaknya dengan metode-metode klasik yang telah kami jelaskan di atas.  Beberapa kelemahannya ini antara lain[1]:
+• Agile jarang dipraktekkan secara langsung,
+• Interksi dengan customers yang berlebihan,
+• Agile  sulid  diimplementasikan  dalam  proyek  yang berskala besar,
+• Membutuhkan manajemen tim yang terlatih,
+• Lemah dalam perencanaan arsitektur,2 Scrum dan Extreme Programming
+• Keterbatasan waktu dalam perencanaan Proyek,
+• Serta beberapa kelemahan lainnya.
+
+(Beberapa Metode Agile)
+Seperti  telah  dijelaskan  di  atas,   Agile  merupakan sekumpulan   metode-metode   pengembangan   perangkat lunak     yang     dikembangkan     untuk     menyelesaikan permasalahan-permasalahan yang ditemukan pada metodemetode klasik.  Beberapa metode yang termasuk ke dalam metode agile yakni:
+• Crystal (Light, Clear, Orange, dll)
+• DSDM,
+• Lean,
+• Kanban,
+• Rational Uniﬁeld Process (RUP),
+• Scrum,
+• Extreme Programming (XP) dan lainnya
+
+
